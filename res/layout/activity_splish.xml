@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Splish">
+
+    <ImageView
+        android:id="@+id/postBtn"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="133dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/splish_icon" />
+
+    <TextView
+        android:id="@+id/splashScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/postBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="242dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Welcom To SidZee Video Player"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+
+</RelativeLayout>
