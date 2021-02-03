@@ -1,2 +1,2 @@
 # videoPlayer
-This is Android Studio project.
+Android Studio project.
